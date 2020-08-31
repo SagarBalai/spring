@@ -1,0 +1,14 @@
+# For Development profile
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    org:
+      zalando:
+        logbook: TRACE
+      springframework:
+        web:
+          filter:
+            CommonsRequestLoggingFilter: TRACE
