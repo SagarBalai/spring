@@ -15,6 +15,11 @@ class Controller {
     fun getOwner(): String {
         return "Sagar"
     }
+    
+     @GetMapping("/")
+    fun getOwner(): String {
+        return "Welcome Sagar, you are rockstart"
+    }
 
     @GetMapping("info")
     fun getInfo(): String {
