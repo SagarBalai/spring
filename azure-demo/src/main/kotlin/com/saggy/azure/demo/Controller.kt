@@ -23,7 +23,7 @@ class Controller {
 
     @GetMapping("info")
     fun getInfo(): String {
-        return "Demo for azure vm"
+        return "Demo for azure web app with container registry"
     }
 
     @PostMapping
