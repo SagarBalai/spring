@@ -17,7 +17,7 @@ class Controller {
     }
     
      @GetMapping("/")
-    fun getOwner(): String {
+    fun welcome(): String {
         return "Welcome Sagar, you are rockstart"
     }
 
