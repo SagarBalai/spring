@@ -6,7 +6,7 @@ spring:
 logging:
   level:
     org:
-      zalando:
+      saggy:
         logbook: TRACE
       springframework:
         web:
